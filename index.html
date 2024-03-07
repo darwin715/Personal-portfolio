@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8ee784d05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--NavBar Section-->
+    <div class="navbar">
+        <div class="logo">PORTFOLIO</div>
+        <a href="#" class="btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Header Section-->
+    <header>
+        <div id="header">
+            <div class="column">
+                <div class="blob">
+                 <img src="image/Darwin.png" class="myimage" alt="No image">
+                </div>
+                <div class="header-right">
+                 <p><b>Hello, I'm</b></p>
+                 <h1>DARWIN</h1>
+                 <h3>Frontend Developer</h3>
+                   <div class="social-icons">
+                     <a href="https://wa.me/7708223182" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                     <a href="https://www.linkedin.com/in/darwin-v/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vdarwin517@gmail.com&su=Your%20Subject&body=Your%20Message%20Here" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                     <a href="https://github.com/darwin715" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </div>
+                  <a href="image/Resume_20.pdf" download class="btn1 btn2">Download cv</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!-- -------about me-------- -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/aboutimg.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="about-me-content">
+                    Enthusiastic Engineering Graduate with adequate knowledge in coding and designing. Proficiency in  HTML,CSS, JavaScript. With my Front End  Development course expertise, I am confident that I can apply these skills on a Developer Environment, and would like the opportunity to work with more complex codebases. 
+                    </p>
+
+                    <div class="tag-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li ><span><strong>HTML</strong></span><br></li>
+                            <div class="skill"><div class="bar bar1"></div></div>
+                            <li ><span><strong>CSS</strong></span><br> </li>
+                            <div class="skill"><div class="bar bar2"></div></div>
+                            <li  ><span><strong>Javascript</strong></span><br></li>
+                            <div class="skill"><div class="bar bar3"></div></div>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Bharat Intern</span><br><br>Web Development Intern<br>01rd FEB 2024 - 01rd MAR 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E Electronics and communication Engineering <br> 7.96 
+                                cgpa</span><br> Vellammal institute of technology - chennai  2024</li>
+                            <li><span>Diploma(EEE) <br>  84%</span><br>Govt polytechnic college - Chidambaram 2021</li>
+                            <li><span>10th <br> 82%</span><br>Venus Mat.Hr.Sec school  - Chidambaram 2017</li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!--Services List  -->
+    <section class="services section" id="services">
+        <h2 class="section-title">Services</h2>
+        <span class="section-subtitle">What I offer</span>
+
+        <div class="services-container container grid">
+          <!-- service 1  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-code services-icon"></i>
+
+              <h3 class="services-title">
+                Frontend<br>
+                Developer
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Frontend  
+                  Developer
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Responsive Web Design</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Interactive User Interfaces</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>SEO-Friendly Implementations</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Accessibility and UX Enhancement</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- service 2  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-brands fa-uikit services-icon"></i>
+              <h3 class="services-title">
+                Ui/Ux <br />
+                Designer
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Ui/Ux <br />
+                  Designer
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Intuitive User Interface Design</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Responsive and Mobile-First Design</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Seamless User Experience Optimization</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Accessibility and Usability Enhancements</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- service 3  -->
+          <div class="services-content">
+            <div>
+              <i class="fa-solid fa-hashtag services-icon"></i>
+              <h3 class="services-title">
+                Content<br />
+                Creation
+              </h3>
+            </div>
+            <span
+              class="button button-flex button-small button-link services-button"
+            >
+              View more
+              <i class="fa-solid fa-arrow-right button-icon"></i>
+            </span>
+
+            <div class="services-box">
+              <div class="services-box-content">
+                <h4 class="services-box-title">
+                  Content <br />
+                  Creation
+                </h4>
+                <i class="fa-solid fa-xmark services-box-close"></i>
+
+                <ul class="services-box-services grid">
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Engaging Visual Content</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Social Media Management</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Content Strategy Consulting</p>
+                  </li>
+                  <li class="services-box-list">
+                    <i
+                      class="fa-regular fa-circle-check services-list-icon"
+                    ></i>
+                    <p>Brand Development and Growth</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+             <!--   Portfolio    -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./image/Project-1.png" >
+                    <div class="layer">
+                        <h3>Weather Forecast Website</h3>
+                        <p>A responsive Weather web app which automatically loads weather status based on user input location using real-time API using HTML, CSS & javasript</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/Project-2.png">
+                    <div class="layer">
+                        <h3>Netflix-clone website</h3>
+                        <p>This is a simple Landing page website created using Html,Css and Javascript.</p>
+                        <a href="https://darwin01.neocities.org/Netflix-clone/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Project-3.png">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Simple Calculator website build using HTML,CSS and javascript</p>
+                        <a href="https://darwin01.neocities.org/Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- contact Me-->
+    <section id="contact">
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                            <h1 class="sub-title">contact me</h1>
+                            <p><i class="fa-solid fa-envelope"></i> vdarwin517@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i> +91 7708823182</p>
+                            <div class="social-icons">
+                              <a href="https://wa.me/7708223182" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="https://www.linkedin.com/in/darwin-v/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vdarwin517@gmail.com&su=Your%20Subject&body=Your%20Message%20Here" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="https://github.com/darwin715" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <a href="image/Resume_20.pdf" download class="btn1 btn2">Download cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="your name" required>
+                            <input type="email" name="email" placeholder="your email" required>
+                            <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                            <button type="submit" class="btn1 btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright © Darwin 2024.</p>
+            </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
